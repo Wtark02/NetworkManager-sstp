@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="addon">
+  <id>network-manager-sstp</id>
+  <project_license>GPL-2.0+</project_license>
+  <metadata_license>CC0-1.0</metadata_license>
+  <extends>nm-connection-editor.desktop</extends>
+  <extends>gnome-control-center.desktop</extends>
+  <name>SSTP VPN client</name>
+  <name xml:lang="ca">Client VPN SSTP</name>
+  <name xml:lang="cs">Klient SSTP VPN</name>
+  <name xml:lang="da">SSTP-VPN-klient</name>
+  <name xml:lang="de">SSTP-VPN-Client</name>
+  <name xml:lang="es">Cliente de VPN SSTP</name>
+  <name xml:lang="fur">Client VPN SSTP</name>
+  <name xml:lang="hr">SSTP VPN klijent</name>
+  <name xml:lang="hu">SSTP VPN kliens</name>
+  <name xml:lang="id">Klien VPN SSTP</name>
+  <name xml:lang="it">Client VPN SSTP</name>
+  <name xml:lang="lt">SSTP VPN klientas</name>
+  <name xml:lang="pl">Klient VPN SSTP</name>
+  <name xml:lang="pt_BR">Cliente VPN SSTP</name>
+  <name xml:lang="ru">SSTP VPN клиент</name>
+  <name xml:lang="sr">ППТП ВПН клијент</name>
+  <name xml:lang="sr@latin">SSTP VPN klijent</name>
+  <name xml:lang="sv">SSTP VPN-klient</name>
+  <summary>Client for SSTP virtual private networks</summary>
+  <summary xml:lang="ca">Client per a xarxes privades virtuals SSTP</summary>
+  <summary xml:lang="cs">Klient pro virtuální privátní sítě SSTP</summary>
+  <summary xml:lang="da">Klient til virtuelle private SSTP-netværk</summary>
+  <summary xml:lang="de">Client für virtuelle private SSTP-Netzwerke</summary>
+  <summary xml:lang="es">Cliente para redes privadas virtuales SSTP</summary>
+  <summary xml:lang="fur">Client pes rêts privadis virtuâls SSTP</summary>
+  <summary xml:lang="hr">Klijent za SSTP virtualne privatne mreže</summary>
+  <summary xml:lang="hu">Kliens a SSTP virtuális magánhálózatokhoz</summary>
+  <summary xml:lang="id">Klien untuk virtual private network SSTP</summary>
+  <summary xml:lang="it">Client per reti private virtuali SSTP</summary>
+  <summary xml:lang="lt">Klientas SSTP virtualiems privatiems tinklams</summary>
+  <summary xml:lang="pl">Klient dla wirtualnych sieci prywatnych SSTP</summary>
+  <summary xml:lang="pt_BR">Cliente para redes privadas virtuais SSTP</summary>
+  <summary xml:lang="ru">Клиент для виртуальных приватных сетей SSTP</summary>
+  <summary xml:lang="sr">Клијент за ППТП виртуелне приватне мреже</summary>
+  <summary xml:lang="sr@latin">Klijent za SSTP virtuelne privatne mreže</summary>
+  <summary xml:lang="sv">Klient för SSTP virtuella privata nätverk</summary>
+
+  <keywords>
+    <keyword>network</keyword>
+    <keyword>manager</keyword>
+    <keyword>NetworkManager</keyword>
+    <keyword>connection</keyword>
+    <keyword>VPN</keyword>
+    <keyword>SSTP</keyword>
+  </keywords>
+
+  <description>
+    <p>Support for configuring SSTP virtual private network connections.</p>
+    <p xml:lang="ca">Suport per configurar connexions a xarxes privades virtuals SSTP.</p>
+    <p xml:lang="cs">Podpora konfigurace připojení virtuálních privátních sítí SSTP.</p>
+    <p xml:lang="da">Understøttelse af konfigurering af virtuelle private SSTP-netværksforbindelser.</p>
+    <p xml:lang="de">Unterstützung für die Einrichtung virtueller privater SSTP-Netzwerkverbindungen.</p>
+    <p xml:lang="es">Soporte para configurar conexiones a redes privadas virtuales SSTP.</p>
+    <p xml:lang="fur">Supuart par configurâ conessions a rêt privadis virtuâls SSTP.</p>
+    <p xml:lang="hr">Podrška za podešavanje SSTP virtualna privatna mrežna povezivanja.</p>
+    <p xml:lang="hu">A SSTP virtuális magánhálózati kapcsolatok beállításának támogatása.</p>
+    <p xml:lang="id">Dukungan bagi penataan koneksi virtual private network SSTP.</p>
+    <p xml:lang="it">Supporta la configurazione di connessioni a reti private virtuali SSTP.</p>
+    <p xml:lang="lt">SSTP virtualių privačių tinklo ryšių konfigūracijos palaikymas</p>
+    <p xml:lang="pl">Obsługa konfigurowania połączeń wirtualnych sieci prywatnych SSTP.</p>
+    <p xml:lang="pt_BR">Suporte a configuração conexões de rede privada virtual SSTP.</p>
+    <p xml:lang="ru">Поддержка настройки приватных сетевых соединений SSTP.</p>
+    <p xml:lang="sr">Подршка за подешавање веза ППТП виртуелне приватне мреже.</p>
+    <p xml:lang="sr@latin">Podrška za podešavanje veza SSTP virtuelne privatne mreže.</p>
+    <p xml:lang="sv">Stöd för att konfigurera SSTP virtuella privata nätverksanslutningar.</p>
+    <p>Compatible with servers following the SSTP specification including the Microsoft servers.</p>
+  </description>
+
+  <screenshots>
+    <screenshot type="default">
+      <image width="800" height="568">https://raw.githubusercontent.com/enaess/network-manager-sstp/master/appdata/sstp.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>The advanced options dialog</caption>
+      <image width="800" height="665">https://raw.githubusercontent.com/enaess/network-manager-sstp/master/appdata/sstp-advanced.png</image>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">http://sstp-client.sourceforge.net/#Network_Manager_Plugin</url>
+  <url type="bugtracker">https://github.com/enaess/network-manager-sstp/issues</url>
+  <update_contact>eivnaes@yahoo.com</update_contact>
+  <translation type="gettext">NetworkManager-sstp</translation>
+  <developer_name>Eivind Naess</developer_name>
+</component>
